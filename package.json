@@ -1,0 +1,15 @@
+{
+  "name": "wordle-algoritm",
+  "version": "1.0.0",
+  "description": "B7, Inlämning 1: Testad Wordle-algoritm",
+  "main": "algorithmA.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  }
+}
