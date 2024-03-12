@@ -5,7 +5,7 @@
   "main": "algorithmA.js",
   "type": "module",
   "scripts": {
-    "test": "npm run"
+    "test": "cypress run"
   },
   "author": "",
   "license": "ISC",
