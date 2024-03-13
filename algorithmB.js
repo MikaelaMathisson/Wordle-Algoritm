@@ -6,6 +6,10 @@
 */
 
 function selectWord(wordList, length, uniqueLetters) {
+  if (length <= 0) {
+    throw new Error("Invalid length parameter");
+  }
+
   const validWords = wordList.filter((word) => word.length === length);
 
   if (validWords.length === 0) {
