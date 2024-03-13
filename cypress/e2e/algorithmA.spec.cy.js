@@ -3,7 +3,7 @@ import algorithmA from "../../algorithmA";
 describe("Algorithm A - Feedback", () => {
   /*
   Test to check if the algorithm provides
-   correct feedback for misplaced, incorrect, and correct letters
+   correct feedback for misplaced, incorrect, and correct letters at the same time
   */
   it("should handle misplaced, incorrect, and correct letters and provide right feedback", () => {
     const feedback = algorithmA("HALLÅ", "CYKLA");
@@ -33,8 +33,10 @@ describe("Algorithm A - Feedback", () => {
     ]);
   });
 
-  // Test to check if the algorithm correctly handles incorrect letters and
-  // provides the right feedback
+  /*
+  Test to check if the algorithm correctly handles incorrect letters and
+  provides the right feedback
+  */
   it("should handle incorrect guesses", () => {
     const feedback = algorithmA("AAAA", "TEST");
 
