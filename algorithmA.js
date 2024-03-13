@@ -21,7 +21,4 @@ function algorithmA(guess, correctWord) {
   });
 }
 
-const testRun = algorithmA("HALLÅ", "CYKLA");
-console.log(testRun);
-
 module.exports = algorithmA;
