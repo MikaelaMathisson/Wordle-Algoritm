@@ -24,4 +24,4 @@ function algorithmA(guess, correctWord) {
 const testRun = algorithmA("HALLÅ", "CYKLA");
 console.log(testRun);
 
-export default algorithmA;
+module.exports = algorithmA;
